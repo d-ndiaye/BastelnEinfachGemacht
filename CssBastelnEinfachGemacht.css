@@ -1,0 +1,113 @@
+body {
+    /* background: #98ff98; */
+    font-family: sans-serif;
+    color: #000;
+    justify-content: center;
+    align-items: center;
+    background: /* top, transparent black, faked with gradient */
+    linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), /* bottom, image */
+    url('Background-mint-gruen.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    margin: center;
+    /* margin-left: 25%; */
+}
+
+.output,
+.grafik {
+    margin-left: 25%;
+}
+
+#button {
+    background: #d4af37;
+    color: #f6f7f9;
+    
+    /* border: none;
+    border-radius: 4px;
+    width: 120px;
+    line-height: 45px;
+    padding: 0px 10px;
+    outline: none; */
+}
+
+#breite:focus {
+    outline: none !important;
+    border:1px solid #d4af37;
+    box-shadow: 0 0 5px #717274;
+}
+
+#tiefe:focus {
+    outline: none !important;
+    border:1px solid #d4af37;
+    box-shadow: 0 0 5px #717274;
+}
+
+#hoehe:focus {
+    outline: none !important;
+    border:1px solid #d4af37;
+    box-shadow: 0 0 5px #717274;
+}
+
+#breite {
+    background: #f6f7f9;
+    /* border: none;
+    border-radius: 4px;
+    width: 20%;
+    line-height: 45px;
+    padding: 0px 5px;
+    color: rgba(0, 0, 0, 0.5);
+    outline: none; */
+}
+
+#hoehe {
+    background: #f6f7f9;
+    /* border: none;
+    border-radius: 4px;
+    width: 20%;
+    line-height: 45px;
+    padding: 0px 10px;
+    color: rgba(0, 0, 0, 0.5);
+    outline: none; */
+}
+
+#tiefe {
+    background: #f6f7f9;
+    /* border: none;
+    border-radius: 4px;
+    width: 20%;
+    line-height: 45px;
+    padding: 0px 10px;
+    color: rgba(0, 0, 0, 0.5);
+    outline: none; */
+}
+@media (min-width: 1024px) {
+    
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 768px) {
+    .output {margin-left: 14.5%;;}
+  }
+  
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .output {margin-left: 16.5%;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .output {margin-left: 17.5%;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    .output {margin-left: 17.5%;}
+  }
+  @media (max-width: 1200px) {
+    .output {margin-left: 24%;}
+  }
